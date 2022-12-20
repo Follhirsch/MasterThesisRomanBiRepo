@@ -1,0 +1,44 @@
+The VRfree.dll has a built-in gesture detection. It can recognize two different types of gestures:
+
+1) The static gesture defines a hand pose for a static (non moving) gesture. 
+Weather or not a pose satisfies the StaticGesture is determined by the angle deviations
+of the input pose to the centerPose in comparison to maxCloseAngleDeviation and maxSideAngleDeviation.
+Additionally, fingers that do not play a part in the pose can be set to be ignored in ignoreFinger.
+Finally, the angles of the hand relative to the lower arm are also taken into consideration if 
+useWristHandAngles is true.
+
+2) A multi gesture consists of multiple static gestures in succession with defined time-intervals between them.
+
+Both types of gestures are defined and read by the dll on start-up from json files in the \Gestures\Static and
+\Gestures\Multi folders in the path specified in "subfolder" in the GestureDetection script. The path specified 
+in the script under "subfolder" is relative to "%appdata%/Sensoryx", but you can also give it absolute paths such 
+as "C:\VRfreeGestures". While the json files are human readable and can be changed with any text editor, for now 
+the best way to define new gestures is opening the GestureDetection Scene in the Samples folder of the provided 
+Unity Examples in the Unity Editor (Samples are created with version 2019.2.6f1).
+
+After opening the scene in the Editor press play, connect the gloves and calibrate them as usual. To record a 
+static gesture, hold your right hand in the desired pose and press 'G'. When you select the GestureDetection object in 
+the hierarchy on the left you should see the "GestureDetection (Script)" in the inspector. Click the little arrows next
+to "Static Gestures Detected" and "Static Gestures" to expand them. When you repeat the gesture you recorded with your 
+right hand, the box in "Static Gestures Detected" should become ticked. You can now adjust the properties of the gesture
+under "Static Gestures". Set a name, for your gesture, adjust how easily the gesture is detected by changing 
+MaxCloseAngleDeviation and MaxSideAngleDeviation, set ignoreFinger for fingers that don't take part in the gesture, 
+set if the angles of the hand relative to the lower arm are also taken into consideration using useWristHandAngles.
+Once you're satisfied with how the gesture is recognized, press the "Save Static Gestures" button. The json file defining 
+the gestures will be found in the path specified under "subfolder" in the GestureDetection script. Note that there is a 
+32 gestures limit, so once you reached that limit you'll first have to delete a gesture before adding a new one using the
+"Remove Static/Multi Gesture at Index" buttons.
+
+For multi gestures, the creation process is mostly the same, excep that you need multiple static gestures to define a
+multi gesture. To start defining a multi gesture, move your hand in the desired starting pose and press 'M'. You then 
+have 2 seconds of time to move to the next pose and press 'M' again. In this way, up to 8 poses can be chained together.
+Once the time between two presses of the 'M' button are more than 2 seconds apart, a new multigesture is started.
+The multigestures can be edited when expanded just like the static gestures and saved with the "Save Multi Gestures" button.
+The time intervals specify the maximum amount of time that can pass between two consecutive poses, so that the multi gesture 
+is still recognized.
+
+Finally, if you want to use the static and multi gestures outside of unity with the dll, you just need to place the 
+\Gestures\Static and \Gestures\Multi folder structure with json files in a folder and load them with 
+VRfree.GestureAPI.LoadGestures(path). "path" should either be relative to "%appdata%/Sensoryx", or absolute strating
+with a drive letter). These folders are created by the dll automatically if they don't exist, when it is run. For 
+reference how to get the detected gestures from the dll refer to the GestureDetection.cs script.

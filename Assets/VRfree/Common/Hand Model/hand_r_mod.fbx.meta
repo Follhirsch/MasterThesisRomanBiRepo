@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: f6a95fa94e645a3499b8f47b4c1f6045
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: -1691627602460883378
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.000
+  - first:
+      74: 6947087340225803588
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.001
+  - first:
+      74: -997829162922644685
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.002
+  - first:
+      74: -2296611595156595458
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.003
+  - first:
+      74: 133657489484704498
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.004
+  - first:
+      74: 5728832446011234720
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.005
+  - first:
+      74: 5483618874709957339
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.006
+  - first:
+      74: 2336944584432124396
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.007
+  - first:
+      74: 8217678679586713232
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.008
+  - first:
+      74: 6156926045377643433
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retargeted
+  - first:
+      74: -2427963162975302639
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.009
+  - first:
+      74: -5185769917471783435
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.010
+  - first:
+      74: 7028230810361192315
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.011
+  - first:
+      74: 4906845226088105184
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.012
+  - first:
+      74: 5340128318172016479
+    second: Steam VR Skeleton Retargeted Right|Steam VR Skeleton Retargeted Right|Steam
+      VR Skeleton Retarg.013
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

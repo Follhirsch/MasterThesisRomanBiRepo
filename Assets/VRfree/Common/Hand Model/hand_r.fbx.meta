@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 9a4951498e2e5dd43a3d661457a8931d
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: finger_index_0_r
+    100002: finger_index_1_r
+    100004: finger_index_2_r
+    100006: finger_index_meta_r
+    100008: finger_index_r_end
+    100010: finger_index_r_end_end
+    100012: finger_middle_0_r
+    100014: finger_middle_1_r
+    100016: finger_middle_2_r
+    100018: finger_middle_meta_r
+    100020: finger_middle_r_end
+    100022: finger_middle_r_end_end
+    100024: finger_pinky_0_r
+    100026: finger_pinky_1_r
+    100028: finger_pinky_2_r
+    100030: finger_pinky_meta_r
+    100032: finger_pinky_r_end
+    100034: finger_pinky_r_end_end
+    100036: finger_ring_0_r
+    100038: finger_ring_1_r
+    100040: finger_ring_2_r
+    100042: finger_ring_meta_r
+    100044: finger_ring_r_end
+    100046: finger_ring_r_end_end
+    100048: finger_thumb_0_r
+    100050: finger_thumb_1_r
+    100052: finger_thumb_2_r
+    100054: finger_thumb_r_end
+    100056: finger_thumb_r_end_end
+    100058: hand_r
+    100060: //RootNode
+    100062: lower arm
+    100064: lower arm_end
+    100066: Right Arm Shorter
+    100068: Right Steam VR Skeleton
+    100070: root_r
+    100072: finger_index_end_r
+    100074: finger_middle_end_r
+    100076: finger_pinky_end_r
+    100078: finger_ring_end_r
+    100080: finger_thumb_end_r
+    100082: lower_arm_r
+    100084: Right Arm Shorter.004
+    100086: Steam VR Skeleton Retargeted Right (for export)
+    100088: Right Arm Shorter.003
+    100090: Steam VR Skeleton Retargeted right
+    100092: Right Arm Shorter.002
+    100094: Steam VR Skeleton Retargeted Right
+    100096: Hand_r
+    100098: Hands_r
+    400000: finger_index_0_r
+    400002: finger_index_1_r
+    400004: finger_index_2_r
+    400006: finger_index_meta_r
+    400008: finger_index_r_end
+    400010: finger_index_r_end_end
+    400012: finger_middle_0_r
+    400014: finger_middle_1_r
+    400016: finger_middle_2_r
+    400018: finger_middle_meta_r
+    400020: finger_middle_r_end
+    400022: finger_middle_r_end_end
+    400024: finger_pinky_0_r
+    400026: finger_pinky_1_r
+    400028: finger_pinky_2_r
+    400030: finger_pinky_meta_r
+    400032: finger_pinky_r_end
+    400034: finger_pinky_r_end_end
+    400036: finger_ring_0_r
+    400038: finger_ring_1_r
+    400040: finger_ring_2_r
+    400042: finger_ring_meta_r
+    400044: finger_ring_r_end
+    400046: finger_ring_r_end_end
+    400048: finger_thumb_0_r
+    400050: finger_thumb_1_r
+    400052: finger_thumb_2_r
+    400054: finger_thumb_r_end
+    400056: finger_thumb_r_end_end
+    400058: hand_r
+    400060: //RootNode
+    400062: lower arm
+    400064: lower arm_end
+    400066: Right Arm Shorter
+    400068: Right Steam VR Skeleton
+    400070: root_r
+    400072: finger_index_end_r
+    400074: finger_middle_end_r
+    400076: finger_pinky_end_r
+    400078: finger_ring_end_r
+    400080: finger_thumb_end_r
+    400082: lower_arm_r
+    400084: Right Arm Shorter.004
+    400086: Steam VR Skeleton Retargeted Right (for export)
+    400088: Right Arm Shorter.003
+    400090: Steam VR Skeleton Retargeted right
+    400092: Right Arm Shorter.002
+    400094: Steam VR Skeleton Retargeted Right
+    400096: Hand_r
+    400098: Hands_r
+    2100000: Material
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Right Arm Shorter
+    4300002: Right Arm Shorter.004
+    4300004: Right Arm Shorter.003
+    4300006: Right Arm Shorter.002
+    4300008: Hand_r
+    4300010: Hands_r
+    7400000: Right Steam VR Skeleton|ArmatureAction.006
+    7400002: Steam VR Skeleton Retargeted Right (for export)|ArmatureAction.002
+    7400004: Steam VR Skeleton Retargeted right|ArmatureAction.005
+    7400006: Steam VR Skeleton Retargeted Right|Animation_r
+    9500000: //RootNode
+    13700000: Right Arm Shorter
+    13700002: Right Arm Shorter.004
+    13700004: Right Arm Shorter.003
+    13700006: Right Arm Shorter.002
+    13700008: Hand_r
+    13700010: Hands_r
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Steam VR Skeleton Retargeted Right|Animation_r
+      takeName: Steam VR Skeleton Retargeted Right|Animation_r
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

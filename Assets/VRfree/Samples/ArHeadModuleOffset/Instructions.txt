@@ -1,0 +1,17 @@
+First make sure you can deploy an empty scene to the AR HMD of your chosing. For the Hololens 2 for example, you can follow the following tutorial:
+https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/tutorials/mr-learning-base-02
+
+Then, once you can deploy and run your project on your HMD, add the VRfree plugin. Add the camera prefab from your HMD's api to the ArHeadModuleOffset
+scene. In the case of the Hololens, first disable the original camera transform, then select Mixed Reality->Toolkit->Add to scene and configure. 
+Add the VRfreeCamera script to the main camera of the prefab and move the children of the "Camera" Gameobject which was originally in the scene to the 
+new camera. You can then disable or delete the old camera object.
+When building for UWP (Hololens 2), go to Project Settings->Player->UWP Settings->Publishing Settings->Capabilities and enable InternetClient, 
+InternetClientServer, and PrivateNetworkClientServer. Delete all previous contents of build folder or build to new folder for settings to take effect.
+
+To calibrate the system, start the latest VRfree Setup on your PC. Since most of the calibration routines there are for using the gloves/trackers on
+the pc itself (not the AR headset), you only need to run the Head Module Orientation Calibration (with the head module mounted to the running AR HMD, 
+but connected via USB to the PC) and the Glove/Tracker Orientation Calibrations.
+The Head Module Offset Calibration and Hand Pose Calibration are included in the ArHeadModuleOffset scene and should later be run from there on the 
+AR HMD itself. For the head module offset calibration look up to the "Calibrate Offset" sign and activate it. The calibration procedure will consecutively 
+show 9 cyan 3d points which you need to match with the tracking dome on either one of your gloves or your tracker. Which of these is required for 
+calibration can be set inside the Unity Editor in the ArHeadModuleOffsetCalibration script on the HeadModuleOffsetCalibration object under "Calibration Source".

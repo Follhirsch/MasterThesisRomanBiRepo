@@ -1,0 +1,7 @@
+These instructions explain the steps necessary to see the movements of your VRfree tracker/stylus in Unity.
+
+1. Setup outside of Unity
+First check the ID of your tracker. To do this, open the VRfree Setup and go to Device Configuration. Turn off your head module and connect your tracker via USB. You can then choose a tracker ID between 0 and 5. Next, disconnect your tracker from the usb and connect/turn on your head module instead. Tick the boxes for enable rotation and enable position next to the tracker ID you selected before. If you now turn on the tracker (and it has selected the same color for the wireless channel) you should be able to hear a slight buzzing if you hold it close to your ear. 
+
+2. Changes inside Unity
+Find the Tracker GameObject in the Scene. Set the trackerId on the VRfreeTracker script to the ID you chose in the Device Configuration before. If everything is configured properly, you should be able to see the tracker moving in Unity, once you run the scene.

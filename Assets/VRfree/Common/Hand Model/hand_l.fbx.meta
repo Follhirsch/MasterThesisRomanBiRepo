@@ -1,0 +1,2032 @@
+fileFormatVersion: 2
+guid: f5cff6321ea9717499913d6729f2a3e9
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: finger_index_0_l
+  - first:
+      1: 100002
+    second: finger_index_1_l
+  - first:
+      1: 100004
+    second: finger_index_2_l
+  - first:
+      1: 100006
+    second: finger_index_2_l_end
+  - first:
+      1: 100008
+    second: finger_index_meta_l
+  - first:
+      1: 100010
+    second: finger_middle_0_l
+  - first:
+      1: 100012
+    second: finger_middle_1_l
+  - first:
+      1: 100014
+    second: finger_middle_2_l
+  - first:
+      1: 100016
+    second: finger_middle_2_l_end
+  - first:
+      1: 100018
+    second: finger_middle_meta_l
+  - first:
+      1: 100020
+    second: finger_pinky_0_l
+  - first:
+      1: 100022
+    second: finger_pinky_1_l
+  - first:
+      1: 100024
+    second: finger_pinky_2_l
+  - first:
+      1: 100026
+    second: finger_pinky_2_l_end
+  - first:
+      1: 100028
+    second: finger_pinky_meta_l
+  - first:
+      1: 100030
+    second: finger_ring_0_l
+  - first:
+      1: 100032
+    second: finger_ring_1_l
+  - first:
+      1: 100034
+    second: finger_ring_2_l
+  - first:
+      1: 100036
+    second: finger_ring_2_l_end
+  - first:
+      1: 100038
+    second: finger_ring_meta_l
+  - first:
+      1: 100040
+    second: finger_thumb_0_l
+  - first:
+      1: 100042
+    second: finger_thumb_1_l
+  - first:
+      1: 100044
+    second: finger_thumb_2_l
+  - first:
+      1: 100046
+    second: finger_thumb_2_l_end
+  - first:
+      1: 100048
+    second: hand_l
+  - first:
+      1: 100050
+    second: //RootNode
+  - first:
+      1: 100052
+    second: Left Arm Shorter
+  - first:
+      1: 100054
+    second: Left Steam VR Skeleton
+  - first:
+      1: 100056
+    second: lower_arm_l
+  - first:
+      1: 100058
+    second: lower_arm_l_end
+  - first:
+      1: 100060
+    second: root_l
+  - first:
+      1: 100062
+    second: finger_index_r_end
+  - first:
+      1: 100064
+    second: finger_index_r_end_end
+  - first:
+      1: 100066
+    second: finger_middle_r_end
+  - first:
+      1: 100068
+    second: finger_middle_r_end_end
+  - first:
+      1: 100070
+    second: finger_pinky_r_end
+  - first:
+      1: 100072
+    second: finger_pinky_r_end_end
+  - first:
+      1: 100074
+    second: finger_ring_r_end
+  - first:
+      1: 100076
+    second: finger_ring_r_end_end
+  - first:
+      1: 100078
+    second: finger_thumb_r_end
+  - first:
+      1: 100080
+    second: finger_thumb_r_end_end
+  - first:
+      1: 100082
+    second: lower arm
+  - first:
+      1: 100084
+    second: lower arm_end
+  - first:
+      1: 100086
+    second: 3D Scan Hand Fist
+  - first:
+      1: 100088
+    second: 3D Scan Hand Flat Spread
+  - first:
+      1: 100090
+    second: 3D Scan Hand Flat Together
+  - first:
+      1: 100092
+    second: 3D Scan Hand Pinch
+  - first:
+      1: 100094
+    second: A4 Sized Cube
+  - first:
+      1: 100096
+    second: finger_index_0_l 1
+  - first:
+      1: 100098
+    second: finger_index_0_l 2
+  - first:
+      1: 100100
+    second: finger_index_0_r
+  - first:
+      1: 100102
+    second: finger_index_0_r 1
+  - first:
+      1: 100104
+    second: finger_index_0_r 2
+  - first:
+      1: 100106
+    second: finger_index_0_r 3
+  - first:
+      1: 100108
+    second: finger_index_0_r 4
+  - first:
+      1: 100110
+    second: finger_index_1_l 1
+  - first:
+      1: 100112
+    second: finger_index_1_l 2
+  - first:
+      1: 100114
+    second: finger_index_1_r
+  - first:
+      1: 100116
+    second: finger_index_1_r 1
+  - first:
+      1: 100118
+    second: finger_index_1_r 2
+  - first:
+      1: 100120
+    second: finger_index_1_r 3
+  - first:
+      1: 100122
+    second: finger_index_1_r 4
+  - first:
+      1: 100124
+    second: finger_index_2_l 1
+  - first:
+      1: 100126
+    second: finger_index_2_l 2
+  - first:
+      1: 100128
+    second: finger_index_2_r
+  - first:
+      1: 100130
+    second: finger_index_2_r 1
+  - first:
+      1: 100132
+    second: finger_index_2_r 2
+  - first:
+      1: 100134
+    second: finger_index_2_r 3
+  - first:
+      1: 100136
+    second: finger_index_2_r 4
+  - first:
+      1: 100138
+    second: finger_index_end_l
+  - first:
+      1: 100140
+    second: finger_index_end_l 1
+  - first:
+      1: 100142
+    second: finger_index_end_r
+  - first:
+      1: 100144
+    second: finger_index_end_r 1
+  - first:
+      1: 100146
+    second: finger_index_meta_l 1
+  - first:
+      1: 100148
+    second: finger_index_meta_l 2
+  - first:
+      1: 100150
+    second: finger_index_meta_r
+  - first:
+      1: 100152
+    second: finger_index_meta_r 1
+  - first:
+      1: 100154
+    second: finger_index_meta_r 2
+  - first:
+      1: 100156
+    second: finger_index_meta_r 3
+  - first:
+      1: 100158
+    second: finger_index_meta_r 4
+  - first:
+      1: 100160
+    second: finger_index_r_aux
+  - first:
+      1: 100162
+    second: finger_index_r_aux 1
+  - first:
+      1: 100164
+    second: finger_index_r_end 1
+  - first:
+      1: 100166
+    second: finger_index_r_end 2
+  - first:
+      1: 100168
+    second: finger_index_r_end 3
+  - first:
+      1: 100170
+    second: finger_middle_0_l 1
+  - first:
+      1: 100172
+    second: finger_middle_0_l 2
+  - first:
+      1: 100174
+    second: finger_middle_0_r
+  - first:
+      1: 100176
+    second: finger_middle_0_r 1
+  - first:
+      1: 100178
+    second: finger_middle_0_r 2
+  - first:
+      1: 100180
+    second: finger_middle_0_r 3
+  - first:
+      1: 100182
+    second: finger_middle_0_r 4
+  - first:
+      1: 100184
+    second: finger_middle_1_l 1
+  - first:
+      1: 100186
+    second: finger_middle_1_l 2
+  - first:
+      1: 100188
+    second: finger_middle_1_r
+  - first:
+      1: 100190
+    second: finger_middle_1_r 1
+  - first:
+      1: 100192
+    second: finger_middle_1_r 2
+  - first:
+      1: 100194
+    second: finger_middle_1_r 3
+  - first:
+      1: 100196
+    second: finger_middle_1_r 4
+  - first:
+      1: 100198
+    second: finger_middle_2_l 1
+  - first:
+      1: 100200
+    second: finger_middle_2_l 2
+  - first:
+      1: 100202
+    second: finger_middle_2_r
+  - first:
+      1: 100204
+    second: finger_middle_2_r 1
+  - first:
+      1: 100206
+    second: finger_middle_2_r 2
+  - first:
+      1: 100208
+    second: finger_middle_2_r 3
+  - first:
+      1: 100210
+    second: finger_middle_2_r 4
+  - first:
+      1: 100212
+    second: finger_middle_end_l
+  - first:
+      1: 100214
+    second: finger_middle_end_l 1
+  - first:
+      1: 100216
+    second: finger_middle_end_r
+  - first:
+      1: 100218
+    second: finger_middle_end_r 1
+  - first:
+      1: 100220
+    second: finger_middle_meta_l 1
+  - first:
+      1: 100222
+    second: finger_middle_meta_l 2
+  - first:
+      1: 100224
+    second: finger_middle_meta_r
+  - first:
+      1: 100226
+    second: finger_middle_meta_r 1
+  - first:
+      1: 100228
+    second: finger_middle_meta_r 2
+  - first:
+      1: 100230
+    second: finger_middle_meta_r 3
+  - first:
+      1: 100232
+    second: finger_middle_meta_r 4
+  - first:
+      1: 100234
+    second: finger_middle_r_aux
+  - first:
+      1: 100236
+    second: finger_middle_r_aux 1
+  - first:
+      1: 100238
+    second: finger_middle_r_end 1
+  - first:
+      1: 100240
+    second: finger_middle_r_end 2
+  - first:
+      1: 100242
+    second: finger_middle_r_end 3
+  - first:
+      1: 100244
+    second: finger_pinky_0_l 1
+  - first:
+      1: 100246
+    second: finger_pinky_0_l 2
+  - first:
+      1: 100248
+    second: finger_pinky_0_r
+  - first:
+      1: 100250
+    second: finger_pinky_0_r 1
+  - first:
+      1: 100252
+    second: finger_pinky_0_r 2
+  - first:
+      1: 100254
+    second: finger_pinky_0_r 3
+  - first:
+      1: 100256
+    second: finger_pinky_0_r 4
+  - first:
+      1: 100258
+    second: finger_pinky_1_l 1
+  - first:
+      1: 100260
+    second: finger_pinky_1_l 2
+  - first:
+      1: 100262
+    second: finger_pinky_1_r
+  - first:
+      1: 100264
+    second: finger_pinky_1_r 1
+  - first:
+      1: 100266
+    second: finger_pinky_1_r 2
+  - first:
+      1: 100268
+    second: finger_pinky_1_r 3
+  - first:
+      1: 100270
+    second: finger_pinky_1_r 4
+  - first:
+      1: 100272
+    second: finger_pinky_2_l 1
+  - first:
+      1: 100274
+    second: finger_pinky_2_l 2
+  - first:
+      1: 100276
+    second: finger_pinky_2_r
+  - first:
+      1: 100278
+    second: finger_pinky_2_r 1
+  - first:
+      1: 100280
+    second: finger_pinky_2_r 2
+  - first:
+      1: 100282
+    second: finger_pinky_2_r 3
+  - first:
+      1: 100284
+    second: finger_pinky_2_r 4
+  - first:
+      1: 100286
+    second: finger_pinky_end_l
+  - first:
+      1: 100288
+    second: finger_pinky_end_l 1
+  - first:
+      1: 100290
+    second: finger_pinky_end_r
+  - first:
+      1: 100292
+    second: finger_pinky_end_r 1
+  - first:
+      1: 100294
+    second: finger_pinky_meta_l 1
+  - first:
+      1: 100296
+    second: finger_pinky_meta_l 2
+  - first:
+      1: 100298
+    second: finger_pinky_meta_r
+  - first:
+      1: 100300
+    second: finger_pinky_meta_r 1
+  - first:
+      1: 100302
+    second: finger_pinky_meta_r 2
+  - first:
+      1: 100304
+    second: finger_pinky_meta_r 3
+  - first:
+      1: 100306
+    second: finger_pinky_meta_r 4
+  - first:
+      1: 100308
+    second: finger_pinky_r_aux
+  - first:
+      1: 100310
+    second: finger_pinky_r_aux 1
+  - first:
+      1: 100312
+    second: finger_pinky_r_end 1
+  - first:
+      1: 100314
+    second: finger_pinky_r_end 2
+  - first:
+      1: 100316
+    second: finger_pinky_r_end 3
+  - first:
+      1: 100318
+    second: finger_ring_0_l 1
+  - first:
+      1: 100320
+    second: finger_ring_0_l 2
+  - first:
+      1: 100322
+    second: finger_ring_0_r
+  - first:
+      1: 100324
+    second: finger_ring_0_r 1
+  - first:
+      1: 100326
+    second: finger_ring_0_r 2
+  - first:
+      1: 100328
+    second: finger_ring_0_r 3
+  - first:
+      1: 100330
+    second: finger_ring_0_r 4
+  - first:
+      1: 100332
+    second: finger_ring_1_l 1
+  - first:
+      1: 100334
+    second: finger_ring_1_l 2
+  - first:
+      1: 100336
+    second: finger_ring_1_r
+  - first:
+      1: 100338
+    second: finger_ring_1_r 1
+  - first:
+      1: 100340
+    second: finger_ring_1_r 2
+  - first:
+      1: 100342
+    second: finger_ring_1_r 3
+  - first:
+      1: 100344
+    second: finger_ring_1_r 4
+  - first:
+      1: 100346
+    second: finger_ring_2_l 1
+  - first:
+      1: 100348
+    second: finger_ring_2_l 2
+  - first:
+      1: 100350
+    second: finger_ring_2_r
+  - first:
+      1: 100352
+    second: finger_ring_2_r 1
+  - first:
+      1: 100354
+    second: finger_ring_2_r 2
+  - first:
+      1: 100356
+    second: finger_ring_2_r 3
+  - first:
+      1: 100358
+    second: finger_ring_2_r 4
+  - first:
+      1: 100360
+    second: finger_ring_end_l
+  - first:
+      1: 100362
+    second: finger_ring_end_l 1
+  - first:
+      1: 100364
+    second: finger_ring_end_r
+  - first:
+      1: 100366
+    second: finger_ring_end_r 1
+  - first:
+      1: 100368
+    second: finger_ring_meta_l 1
+  - first:
+      1: 100370
+    second: finger_ring_meta_l 2
+  - first:
+      1: 100372
+    second: finger_ring_meta_r
+  - first:
+      1: 100374
+    second: finger_ring_meta_r 1
+  - first:
+      1: 100376
+    second: finger_ring_meta_r 2
+  - first:
+      1: 100378
+    second: finger_ring_meta_r 3
+  - first:
+      1: 100380
+    second: finger_ring_meta_r 4
+  - first:
+      1: 100382
+    second: finger_ring_r_aux
+  - first:
+      1: 100384
+    second: finger_ring_r_aux 1
+  - first:
+      1: 100386
+    second: finger_ring_r_end 1
+  - first:
+      1: 100388
+    second: finger_ring_r_end 2
+  - first:
+      1: 100390
+    second: finger_ring_r_end 3
+  - first:
+      1: 100392
+    second: finger_thumb_0_l 1
+  - first:
+      1: 100394
+    second: finger_thumb_0_l 2
+  - first:
+      1: 100396
+    second: finger_thumb_0_r
+  - first:
+      1: 100398
+    second: finger_thumb_0_r 1
+  - first:
+      1: 100400
+    second: finger_thumb_0_r 2
+  - first:
+      1: 100402
+    second: finger_thumb_0_r 3
+  - first:
+      1: 100404
+    second: finger_thumb_0_r 4
+  - first:
+      1: 100406
+    second: finger_thumb_1_l 1
+  - first:
+      1: 100408
+    second: finger_thumb_1_l 2
+  - first:
+      1: 100410
+    second: finger_thumb_1_r
+  - first:
+      1: 100412
+    second: finger_thumb_1_r 1
+  - first:
+      1: 100414
+    second: finger_thumb_1_r 2
+  - first:
+      1: 100416
+    second: finger_thumb_1_r 3
+  - first:
+      1: 100418
+    second: finger_thumb_1_r 4
+  - first:
+      1: 100420
+    second: finger_thumb_2_l 1
+  - first:
+      1: 100422
+    second: finger_thumb_2_l 2
+  - first:
+      1: 100424
+    second: finger_thumb_2_r
+  - first:
+      1: 100426
+    second: finger_thumb_2_r 1
+  - first:
+      1: 100428
+    second: finger_thumb_2_r 2
+  - first:
+      1: 100430
+    second: finger_thumb_2_r 3
+  - first:
+      1: 100432
+    second: finger_thumb_2_r 4
+  - first:
+      1: 100434
+    second: finger_thumb_end_l
+  - first:
+      1: 100436
+    second: finger_thumb_end_l 1
+  - first:
+      1: 100438
+    second: finger_thumb_end_r
+  - first:
+      1: 100440
+    second: finger_thumb_end_r 1
+  - first:
+      1: 100442
+    second: finger_thumb_r_aux
+  - first:
+      1: 100444
+    second: finger_thumb_r_aux 1
+  - first:
+      1: 100446
+    second: finger_thumb_r_end 1
+  - first:
+      1: 100448
+    second: finger_thumb_r_end 2
+  - first:
+      1: 100450
+    second: finger_thumb_r_end 3
+  - first:
+      1: 100452
+    second: hand_l 1
+  - first:
+      1: 100454
+    second: hand_l 2
+  - first:
+      1: 100456
+    second: hand_r
+  - first:
+      1: 100458
+    second: hand_r 1
+  - first:
+      1: 100460
+    second: hand_r 2
+  - first:
+      1: 100462
+    second: lower arm 1
+  - first:
+      1: 100464
+    second: lower_arm_l 1
+  - first:
+      1: 100466
+    second: lower_arm_r
+  - first:
+      1: 100468
+    second: lower_arm_r 1
+  - first:
+      1: 100470
+    second: lower_arm_r 2
+  - first:
+      1: 100472
+    second: renderMesh0
+  - first:
+      1: 100474
+    second: Right arm
+  - first:
+      1: 100476
+    second: Right Arm Shorter
+  - first:
+      1: 100478
+    second: Right Arm Shorter.001
+  - first:
+      1: 100480
+    second: Right Arm Shorter.002
+  - first:
+      1: 100482
+    second: Right Arm Shorter.004
+  - first:
+      1: 100484
+    second: Right Steam VR Skeleton
+  - first:
+      1: 100486
+    second: Root
+  - first:
+      1: 100488
+    second: Root 1
+  - first:
+      1: 100490
+    second: root_l 1
+  - first:
+      1: 100492
+    second: root_l 2
+  - first:
+      1: 100494
+    second: root_r
+  - first:
+      1: 100496
+    second: root_r 1
+  - first:
+      1: 100498
+    second: root_r 2
+  - first:
+      1: 100500
+    second: Steam VR Glove
+  - first:
+      1: 100502
+    second: Steam VR Skeleton
+  - first:
+      1: 100504
+    second: Steam VR Skeleton Retargeted Both Hands <- Edit this one!
+  - first:
+      1: 100506
+    second: Steam VR Skeleton Retargeted Left (for export)
+  - first:
+      1: 100508
+    second: Steam VR Skeleton Retargeted Right (for export)
+  - first:
+      1: 100510
+    second: Sun
+  - first:
+      1: 100512
+    second: Sun.001
+  - first:
+      1: 100514
+    second: Sun.002
+  - first:
+      1: 100516
+    second: wrist_r
+  - first:
+      1: 100518
+    second: wrist_r 1
+  - first:
+      1: 100520
+    second: Hands_l
+  - first:
+      1: 100522
+    second: Steam VR Skeleton Retargeted Left
+  - first:
+      4: 400000
+    second: finger_index_0_l
+  - first:
+      4: 400002
+    second: finger_index_1_l
+  - first:
+      4: 400004
+    second: finger_index_2_l
+  - first:
+      4: 400006
+    second: finger_index_2_l_end
+  - first:
+      4: 400008
+    second: finger_index_meta_l
+  - first:
+      4: 400010
+    second: finger_middle_0_l
+  - first:
+      4: 400012
+    second: finger_middle_1_l
+  - first:
+      4: 400014
+    second: finger_middle_2_l
+  - first:
+      4: 400016
+    second: finger_middle_2_l_end
+  - first:
+      4: 400018
+    second: finger_middle_meta_l
+  - first:
+      4: 400020
+    second: finger_pinky_0_l
+  - first:
+      4: 400022
+    second: finger_pinky_1_l
+  - first:
+      4: 400024
+    second: finger_pinky_2_l
+  - first:
+      4: 400026
+    second: finger_pinky_2_l_end
+  - first:
+      4: 400028
+    second: finger_pinky_meta_l
+  - first:
+      4: 400030
+    second: finger_ring_0_l
+  - first:
+      4: 400032
+    second: finger_ring_1_l
+  - first:
+      4: 400034
+    second: finger_ring_2_l
+  - first:
+      4: 400036
+    second: finger_ring_2_l_end
+  - first:
+      4: 400038
+    second: finger_ring_meta_l
+  - first:
+      4: 400040
+    second: finger_thumb_0_l
+  - first:
+      4: 400042
+    second: finger_thumb_1_l
+  - first:
+      4: 400044
+    second: finger_thumb_2_l
+  - first:
+      4: 400046
+    second: finger_thumb_2_l_end
+  - first:
+      4: 400048
+    second: hand_l
+  - first:
+      4: 400050
+    second: //RootNode
+  - first:
+      4: 400052
+    second: Left Arm Shorter
+  - first:
+      4: 400054
+    second: Left Steam VR Skeleton
+  - first:
+      4: 400056
+    second: lower_arm_l
+  - first:
+      4: 400058
+    second: lower_arm_l_end
+  - first:
+      4: 400060
+    second: root_l
+  - first:
+      4: 400062
+    second: finger_index_r_end
+  - first:
+      4: 400064
+    second: finger_index_r_end_end
+  - first:
+      4: 400066
+    second: finger_middle_r_end
+  - first:
+      4: 400068
+    second: finger_middle_r_end_end
+  - first:
+      4: 400070
+    second: finger_pinky_r_end
+  - first:
+      4: 400072
+    second: finger_pinky_r_end_end
+  - first:
+      4: 400074
+    second: finger_ring_r_end
+  - first:
+      4: 400076
+    second: finger_ring_r_end_end
+  - first:
+      4: 400078
+    second: finger_thumb_r_end
+  - first:
+      4: 400080
+    second: finger_thumb_r_end_end
+  - first:
+      4: 400082
+    second: lower arm
+  - first:
+      4: 400084
+    second: lower arm_end
+  - first:
+      4: 400086
+    second: 3D Scan Hand Fist
+  - first:
+      4: 400088
+    second: 3D Scan Hand Flat Spread
+  - first:
+      4: 400090
+    second: 3D Scan Hand Flat Together
+  - first:
+      4: 400092
+    second: 3D Scan Hand Pinch
+  - first:
+      4: 400094
+    second: A4 Sized Cube
+  - first:
+      4: 400096
+    second: finger_index_0_l 1
+  - first:
+      4: 400098
+    second: finger_index_0_l 2
+  - first:
+      4: 400100
+    second: finger_index_0_r
+  - first:
+      4: 400102
+    second: finger_index_0_r 1
+  - first:
+      4: 400104
+    second: finger_index_0_r 2
+  - first:
+      4: 400106
+    second: finger_index_0_r 3
+  - first:
+      4: 400108
+    second: finger_index_0_r 4
+  - first:
+      4: 400110
+    second: finger_index_1_l 1
+  - first:
+      4: 400112
+    second: finger_index_1_l 2
+  - first:
+      4: 400114
+    second: finger_index_1_r
+  - first:
+      4: 400116
+    second: finger_index_1_r 1
+  - first:
+      4: 400118
+    second: finger_index_1_r 2
+  - first:
+      4: 400120
+    second: finger_index_1_r 3
+  - first:
+      4: 400122
+    second: finger_index_1_r 4
+  - first:
+      4: 400124
+    second: finger_index_2_l 1
+  - first:
+      4: 400126
+    second: finger_index_2_l 2
+  - first:
+      4: 400128
+    second: finger_index_2_r
+  - first:
+      4: 400130
+    second: finger_index_2_r 1
+  - first:
+      4: 400132
+    second: finger_index_2_r 2
+  - first:
+      4: 400134
+    second: finger_index_2_r 3
+  - first:
+      4: 400136
+    second: finger_index_2_r 4
+  - first:
+      4: 400138
+    second: finger_index_end_l
+  - first:
+      4: 400140
+    second: finger_index_end_l 1
+  - first:
+      4: 400142
+    second: finger_index_end_r
+  - first:
+      4: 400144
+    second: finger_index_end_r 1
+  - first:
+      4: 400146
+    second: finger_index_meta_l 1
+  - first:
+      4: 400148
+    second: finger_index_meta_l 2
+  - first:
+      4: 400150
+    second: finger_index_meta_r
+  - first:
+      4: 400152
+    second: finger_index_meta_r 1
+  - first:
+      4: 400154
+    second: finger_index_meta_r 2
+  - first:
+      4: 400156
+    second: finger_index_meta_r 3
+  - first:
+      4: 400158
+    second: finger_index_meta_r 4
+  - first:
+      4: 400160
+    second: finger_index_r_aux
+  - first:
+      4: 400162
+    second: finger_index_r_aux 1
+  - first:
+      4: 400164
+    second: finger_index_r_end 1
+  - first:
+      4: 400166
+    second: finger_index_r_end 2
+  - first:
+      4: 400168
+    second: finger_index_r_end 3
+  - first:
+      4: 400170
+    second: finger_middle_0_l 1
+  - first:
+      4: 400172
+    second: finger_middle_0_l 2
+  - first:
+      4: 400174
+    second: finger_middle_0_r
+  - first:
+      4: 400176
+    second: finger_middle_0_r 1
+  - first:
+      4: 400178
+    second: finger_middle_0_r 2
+  - first:
+      4: 400180
+    second: finger_middle_0_r 3
+  - first:
+      4: 400182
+    second: finger_middle_0_r 4
+  - first:
+      4: 400184
+    second: finger_middle_1_l 1
+  - first:
+      4: 400186
+    second: finger_middle_1_l 2
+  - first:
+      4: 400188
+    second: finger_middle_1_r
+  - first:
+      4: 400190
+    second: finger_middle_1_r 1
+  - first:
+      4: 400192
+    second: finger_middle_1_r 2
+  - first:
+      4: 400194
+    second: finger_middle_1_r 3
+  - first:
+      4: 400196
+    second: finger_middle_1_r 4
+  - first:
+      4: 400198
+    second: finger_middle_2_l 1
+  - first:
+      4: 400200
+    second: finger_middle_2_l 2
+  - first:
+      4: 400202
+    second: finger_middle_2_r
+  - first:
+      4: 400204
+    second: finger_middle_2_r 1
+  - first:
+      4: 400206
+    second: finger_middle_2_r 2
+  - first:
+      4: 400208
+    second: finger_middle_2_r 3
+  - first:
+      4: 400210
+    second: finger_middle_2_r 4
+  - first:
+      4: 400212
+    second: finger_middle_end_l
+  - first:
+      4: 400214
+    second: finger_middle_end_l 1
+  - first:
+      4: 400216
+    second: finger_middle_end_r
+  - first:
+      4: 400218
+    second: finger_middle_end_r 1
+  - first:
+      4: 400220
+    second: finger_middle_meta_l 1
+  - first:
+      4: 400222
+    second: finger_middle_meta_l 2
+  - first:
+      4: 400224
+    second: finger_middle_meta_r
+  - first:
+      4: 400226
+    second: finger_middle_meta_r 1
+  - first:
+      4: 400228
+    second: finger_middle_meta_r 2
+  - first:
+      4: 400230
+    second: finger_middle_meta_r 3
+  - first:
+      4: 400232
+    second: finger_middle_meta_r 4
+  - first:
+      4: 400234
+    second: finger_middle_r_aux
+  - first:
+      4: 400236
+    second: finger_middle_r_aux 1
+  - first:
+      4: 400238
+    second: finger_middle_r_end 1
+  - first:
+      4: 400240
+    second: finger_middle_r_end 2
+  - first:
+      4: 400242
+    second: finger_middle_r_end 3
+  - first:
+      4: 400244
+    second: finger_pinky_0_l 1
+  - first:
+      4: 400246
+    second: finger_pinky_0_l 2
+  - first:
+      4: 400248
+    second: finger_pinky_0_r
+  - first:
+      4: 400250
+    second: finger_pinky_0_r 1
+  - first:
+      4: 400252
+    second: finger_pinky_0_r 2
+  - first:
+      4: 400254
+    second: finger_pinky_0_r 3
+  - first:
+      4: 400256
+    second: finger_pinky_0_r 4
+  - first:
+      4: 400258
+    second: finger_pinky_1_l 1
+  - first:
+      4: 400260
+    second: finger_pinky_1_l 2
+  - first:
+      4: 400262
+    second: finger_pinky_1_r
+  - first:
+      4: 400264
+    second: finger_pinky_1_r 1
+  - first:
+      4: 400266
+    second: finger_pinky_1_r 2
+  - first:
+      4: 400268
+    second: finger_pinky_1_r 3
+  - first:
+      4: 400270
+    second: finger_pinky_1_r 4
+  - first:
+      4: 400272
+    second: finger_pinky_2_l 1
+  - first:
+      4: 400274
+    second: finger_pinky_2_l 2
+  - first:
+      4: 400276
+    second: finger_pinky_2_r
+  - first:
+      4: 400278
+    second: finger_pinky_2_r 1
+  - first:
+      4: 400280
+    second: finger_pinky_2_r 2
+  - first:
+      4: 400282
+    second: finger_pinky_2_r 3
+  - first:
+      4: 400284
+    second: finger_pinky_2_r 4
+  - first:
+      4: 400286
+    second: finger_pinky_end_l
+  - first:
+      4: 400288
+    second: finger_pinky_end_l 1
+  - first:
+      4: 400290
+    second: finger_pinky_end_r
+  - first:
+      4: 400292
+    second: finger_pinky_end_r 1
+  - first:
+      4: 400294
+    second: finger_pinky_meta_l 1
+  - first:
+      4: 400296
+    second: finger_pinky_meta_l 2
+  - first:
+      4: 400298
+    second: finger_pinky_meta_r
+  - first:
+      4: 400300
+    second: finger_pinky_meta_r 1
+  - first:
+      4: 400302
+    second: finger_pinky_meta_r 2
+  - first:
+      4: 400304
+    second: finger_pinky_meta_r 3
+  - first:
+      4: 400306
+    second: finger_pinky_meta_r 4
+  - first:
+      4: 400308
+    second: finger_pinky_r_aux
+  - first:
+      4: 400310
+    second: finger_pinky_r_aux 1
+  - first:
+      4: 400312
+    second: finger_pinky_r_end 1
+  - first:
+      4: 400314
+    second: finger_pinky_r_end 2
+  - first:
+      4: 400316
+    second: finger_pinky_r_end 3
+  - first:
+      4: 400318
+    second: finger_ring_0_l 1
+  - first:
+      4: 400320
+    second: finger_ring_0_l 2
+  - first:
+      4: 400322
+    second: finger_ring_0_r
+  - first:
+      4: 400324
+    second: finger_ring_0_r 1
+  - first:
+      4: 400326
+    second: finger_ring_0_r 2
+  - first:
+      4: 400328
+    second: finger_ring_0_r 3
+  - first:
+      4: 400330
+    second: finger_ring_0_r 4
+  - first:
+      4: 400332
+    second: finger_ring_1_l 1
+  - first:
+      4: 400334
+    second: finger_ring_1_l 2
+  - first:
+      4: 400336
+    second: finger_ring_1_r
+  - first:
+      4: 400338
+    second: finger_ring_1_r 1
+  - first:
+      4: 400340
+    second: finger_ring_1_r 2
+  - first:
+      4: 400342
+    second: finger_ring_1_r 3
+  - first:
+      4: 400344
+    second: finger_ring_1_r 4
+  - first:
+      4: 400346
+    second: finger_ring_2_l 1
+  - first:
+      4: 400348
+    second: finger_ring_2_l 2
+  - first:
+      4: 400350
+    second: finger_ring_2_r
+  - first:
+      4: 400352
+    second: finger_ring_2_r 1
+  - first:
+      4: 400354
+    second: finger_ring_2_r 2
+  - first:
+      4: 400356
+    second: finger_ring_2_r 3
+  - first:
+      4: 400358
+    second: finger_ring_2_r 4
+  - first:
+      4: 400360
+    second: finger_ring_end_l
+  - first:
+      4: 400362
+    second: finger_ring_end_l 1
+  - first:
+      4: 400364
+    second: finger_ring_end_r
+  - first:
+      4: 400366
+    second: finger_ring_end_r 1
+  - first:
+      4: 400368
+    second: finger_ring_meta_l 1
+  - first:
+      4: 400370
+    second: finger_ring_meta_l 2
+  - first:
+      4: 400372
+    second: finger_ring_meta_r
+  - first:
+      4: 400374
+    second: finger_ring_meta_r 1
+  - first:
+      4: 400376
+    second: finger_ring_meta_r 2
+  - first:
+      4: 400378
+    second: finger_ring_meta_r 3
+  - first:
+      4: 400380
+    second: finger_ring_meta_r 4
+  - first:
+      4: 400382
+    second: finger_ring_r_aux
+  - first:
+      4: 400384
+    second: finger_ring_r_aux 1
+  - first:
+      4: 400386
+    second: finger_ring_r_end 1
+  - first:
+      4: 400388
+    second: finger_ring_r_end 2
+  - first:
+      4: 400390
+    second: finger_ring_r_end 3
+  - first:
+      4: 400392
+    second: finger_thumb_0_l 1
+  - first:
+      4: 400394
+    second: finger_thumb_0_l 2
+  - first:
+      4: 400396
+    second: finger_thumb_0_r
+  - first:
+      4: 400398
+    second: finger_thumb_0_r 1
+  - first:
+      4: 400400
+    second: finger_thumb_0_r 2
+  - first:
+      4: 400402
+    second: finger_thumb_0_r 3
+  - first:
+      4: 400404
+    second: finger_thumb_0_r 4
+  - first:
+      4: 400406
+    second: finger_thumb_1_l 1
+  - first:
+      4: 400408
+    second: finger_thumb_1_l 2
+  - first:
+      4: 400410
+    second: finger_thumb_1_r
+  - first:
+      4: 400412
+    second: finger_thumb_1_r 1
+  - first:
+      4: 400414
+    second: finger_thumb_1_r 2
+  - first:
+      4: 400416
+    second: finger_thumb_1_r 3
+  - first:
+      4: 400418
+    second: finger_thumb_1_r 4
+  - first:
+      4: 400420
+    second: finger_thumb_2_l 1
+  - first:
+      4: 400422
+    second: finger_thumb_2_l 2
+  - first:
+      4: 400424
+    second: finger_thumb_2_r
+  - first:
+      4: 400426
+    second: finger_thumb_2_r 1
+  - first:
+      4: 400428
+    second: finger_thumb_2_r 2
+  - first:
+      4: 400430
+    second: finger_thumb_2_r 3
+  - first:
+      4: 400432
+    second: finger_thumb_2_r 4
+  - first:
+      4: 400434
+    second: finger_thumb_end_l
+  - first:
+      4: 400436
+    second: finger_thumb_end_l 1
+  - first:
+      4: 400438
+    second: finger_thumb_end_r
+  - first:
+      4: 400440
+    second: finger_thumb_end_r 1
+  - first:
+      4: 400442
+    second: finger_thumb_r_aux
+  - first:
+      4: 400444
+    second: finger_thumb_r_aux 1
+  - first:
+      4: 400446
+    second: finger_thumb_r_end 1
+  - first:
+      4: 400448
+    second: finger_thumb_r_end 2
+  - first:
+      4: 400450
+    second: finger_thumb_r_end 3
+  - first:
+      4: 400452
+    second: hand_l 1
+  - first:
+      4: 400454
+    second: hand_l 2
+  - first:
+      4: 400456
+    second: hand_r
+  - first:
+      4: 400458
+    second: hand_r 1
+  - first:
+      4: 400460
+    second: hand_r 2
+  - first:
+      4: 400462
+    second: lower arm 1
+  - first:
+      4: 400464
+    second: lower_arm_l 1
+  - first:
+      4: 400466
+    second: lower_arm_r
+  - first:
+      4: 400468
+    second: lower_arm_r 1
+  - first:
+      4: 400470
+    second: lower_arm_r 2
+  - first:
+      4: 400472
+    second: renderMesh0
+  - first:
+      4: 400474
+    second: Right arm
+  - first:
+      4: 400476
+    second: Right Arm Shorter
+  - first:
+      4: 400478
+    second: Right Arm Shorter.001
+  - first:
+      4: 400480
+    second: Right Arm Shorter.002
+  - first:
+      4: 400482
+    second: Right Arm Shorter.004
+  - first:
+      4: 400484
+    second: Right Steam VR Skeleton
+  - first:
+      4: 400486
+    second: Root
+  - first:
+      4: 400488
+    second: Root 1
+  - first:
+      4: 400490
+    second: root_l 1
+  - first:
+      4: 400492
+    second: root_l 2
+  - first:
+      4: 400494
+    second: root_r
+  - first:
+      4: 400496
+    second: root_r 1
+  - first:
+      4: 400498
+    second: root_r 2
+  - first:
+      4: 400500
+    second: Steam VR Glove
+  - first:
+      4: 400502
+    second: Steam VR Skeleton
+  - first:
+      4: 400504
+    second: Steam VR Skeleton Retargeted Both Hands <- Edit this one!
+  - first:
+      4: 400506
+    second: Steam VR Skeleton Retargeted Left (for export)
+  - first:
+      4: 400508
+    second: Steam VR Skeleton Retargeted Right (for export)
+  - first:
+      4: 400510
+    second: Sun
+  - first:
+      4: 400512
+    second: Sun.001
+  - first:
+      4: 400514
+    second: Sun.002
+  - first:
+      4: 400516
+    second: wrist_r
+  - first:
+      4: 400518
+    second: wrist_r 1
+  - first:
+      4: 400520
+    second: Hands_l
+  - first:
+      4: 400522
+    second: Steam VR Skeleton Retargeted Left
+  - first:
+      21: 2100000
+    second: Material
+  - first:
+      21: 2100002
+    second: calib
+  - first:
+      21: 2100004
+    second: fist.001
+  - first:
+      21: 2100006
+    second: pinch_tex0
+  - first:
+      21: 2100008
+    second: pinch_tex1
+  - first:
+      21: 2100010
+    second: Material.003
+  - first:
+      21: 2100012
+    second: flat stretched.002
+  - first:
+      21: 2100014
+    second: Material.001
+  - first:
+      23: 2300000
+    second: 3D Scan Hand Fist
+  - first:
+      23: 2300002
+    second: 3D Scan Hand Flat Spread
+  - first:
+      23: 2300004
+    second: 3D Scan Hand Flat Together
+  - first:
+      23: 2300006
+    second: 3D Scan Hand Pinch
+  - first:
+      23: 2300008
+    second: A4 Sized Cube
+  - first:
+      33: 3300000
+    second: 3D Scan Hand Fist
+  - first:
+      33: 3300002
+    second: 3D Scan Hand Flat Spread
+  - first:
+      33: 3300004
+    second: 3D Scan Hand Flat Together
+  - first:
+      33: 3300006
+    second: 3D Scan Hand Pinch
+  - first:
+      33: 3300008
+    second: A4 Sized Cube
+  - first:
+      43: 4300000
+    second: Left Arm Shorter
+  - first:
+      43: 4300002
+    second: Right Arm Shorter.002
+  - first:
+      43: 4300004
+    second: Right Arm Shorter.004
+  - first:
+      43: 4300006
+    second: Right Arm Shorter.001
+  - first:
+      43: 4300008
+    second: 3D Scan Hand Flat Together
+  - first:
+      43: 4300010
+    second: 3D Scan Hand Fist
+  - first:
+      43: 4300012
+    second: 3D Scan Hand Pinch
+  - first:
+      43: 4300014
+    second: A4 Sized Cube
+  - first:
+      43: 4300016
+    second: 3D Scan Hand Flat Spread
+  - first:
+      43: 4300018
+    second: Right Arm Shorter
+  - first:
+      43: 4300020
+    second: Right arm
+  - first:
+      43: 4300022
+    second: renderMesh0
+  - first:
+      43: 4300024
+    second: Hands_l
+  - first:
+      74: 7400000
+    second: Left Steam VR Skeleton|ArmatureAction.003
+  - first:
+      74: 7400002
+    second: Left Steam VR Skeleton|Group_Global.001Action
+  - first:
+      74: 7400004
+    second: Left Steam VR Skeleton|Group_Global.002Action
+  - first:
+      74: 7400006
+    second: Left Steam VR Skeleton|Group_Global.006Action
+  - first:
+      74: 7400008
+    second: Left Steam VR Skeleton|Group_GlobalAction
+  - first:
+      74: 7400010
+    second: Left Steam VR Skeleton|ArmatureAction.004
+  - first:
+      74: 7400012
+    second: Left Steam VR Skeleton|Left Steam VR SkeletonAction
+  - first:
+      74: 7400014
+    second: Steam VR Skeleton Retargeted Left (for export)|ArmatureAction.004
+  - first:
+      74: 7400016
+    second: Steam VR Skeleton Retargeted Left (for export)|Group_Global.001Action
+  - first:
+      74: 7400018
+    second: Steam VR Skeleton Retargeted Left (for export)|Group_Global.002Action
+  - first:
+      74: 7400020
+    second: Steam VR Skeleton Retargeted Left (for export)|Group_Global.002Action.001
+  - first:
+      74: 7400022
+    second: Steam VR Skeleton Retargeted Left (for export)|Group_Global.006Action
+  - first:
+      74: 7400024
+    second: Steam VR Skeleton Retargeted Left (for export)|Group_GlobalAction
+  - first:
+      74: 7400026
+    second: Steam VR Skeleton Retargeted Right (for export)|ArmatureAction.002
+  - first:
+      74: 7400028
+    second: Steam VR Skeleton Retargeted Right (for export)|Group_Global.001Action
+  - first:
+      74: 7400030
+    second: Steam VR Skeleton Retargeted Right (for export)|Group_Global.002Action
+  - first:
+      74: 7400032
+    second: Steam VR Skeleton Retargeted Right (for export)|Group_Global.002Action.001
+  - first:
+      74: 7400034
+    second: Steam VR Skeleton Retargeted Right (for export)|Group_Global.006Action
+  - first:
+      74: 7400036
+    second: Steam VR Skeleton Retargeted Right (for export)|Group_GlobalAction
+  - first:
+      74: 7400038
+    second: Steam VR Skeleton Retargeted Both Hands <- Edit this one!|ArmatureAction.002
+  - first:
+      74: 7400040
+    second: Steam VR Skeleton Retargeted Both Hands <- Edit this one!|ArmatureAction.003
+  - first:
+      74: 7400042
+    second: Steam VR Skeleton Retargeted Both Hands <- Edit this one!|ArmatureAction.004
+  - first:
+      74: 7400044
+    second: Steam VR Skeleton Retargeted Both Hands <- Edit this one!|Group_Global.001Action
+  - first:
+      74: 7400046
+    second: Steam VR Skeleton Retargeted Both Hands <- Edit this one!|Group_Global.002Action
+  - first:
+      74: 7400048
+    second: Steam VR Skeleton Retargeted Both Hands <- Edit this one!|Group_Global.002Action.001
+  - first:
+      74: 7400050
+    second: Steam VR Skeleton Retargeted Both Hands <- Edit this one!|Group_Global.006Action
+  - first:
+      74: 7400052
+    second: Steam VR Skeleton Retargeted Both Hands <- Edit this one!|Group_GlobalAction
+  - first:
+      74: 7400054
+    second: Left Steam VR Skeleton|Group_Global.002Action.001
+  - first:
+      74: 7400056
+    second: 3D Scan Hand Flat Together|Group_Global.001Action
+  - first:
+      74: 7400058
+    second: 3D Scan Hand Flat Together|Group_Global.002Action
+  - first:
+      74: 7400060
+    second: 3D Scan Hand Flat Together|Group_Global.002Action.001
+  - first:
+      74: 7400062
+    second: 3D Scan Hand Flat Together|Group_Global.006Action
+  - first:
+      74: 7400064
+    second: 3D Scan Hand Flat Together|Group_GlobalAction
+  - first:
+      74: 7400066
+    second: 3D Scan Hand Fist|Group_Global.001Action
+  - first:
+      74: 7400068
+    second: 3D Scan Hand Fist|Group_Global.002Action
+  - first:
+      74: 7400070
+    second: 3D Scan Hand Fist|Group_Global.002Action.001
+  - first:
+      74: 7400072
+    second: 3D Scan Hand Fist|Group_Global.006Action
+  - first:
+      74: 7400074
+    second: 3D Scan Hand Fist|Group_GlobalAction
+  - first:
+      74: 7400076
+    second: 3D Scan Hand Pinch|Group_Global.001Action
+  - first:
+      74: 7400078
+    second: 3D Scan Hand Pinch|Group_Global.002Action
+  - first:
+      74: 7400080
+    second: 3D Scan Hand Pinch|Group_Global.002Action.001
+  - first:
+      74: 7400082
+    second: 3D Scan Hand Pinch|Group_Global.006Action
+  - first:
+      74: 7400084
+    second: 3D Scan Hand Pinch|Group_GlobalAction
+  - first:
+      74: 7400086
+    second: 3D Scan Hand Flat Spread|Group_Global.001Action
+  - first:
+      74: 7400088
+    second: 3D Scan Hand Flat Spread|Group_Global.002Action
+  - first:
+      74: 7400090
+    second: 3D Scan Hand Flat Spread|Group_Global.002Action.001
+  - first:
+      74: 7400092
+    second: 3D Scan Hand Flat Spread|Group_Global.006Action
+  - first:
+      74: 7400094
+    second: 3D Scan Hand Flat Spread|Group_GlobalAction
+  - first:
+      74: 7400096
+    second: Right Steam VR Skeleton|ArmatureAction.006
+  - first:
+      74: 7400098
+    second: Right Steam VR Skeleton|Group_Global.001Action
+  - first:
+      74: 7400100
+    second: Right Steam VR Skeleton|Group_Global.002Action
+  - first:
+      74: 7400102
+    second: Right Steam VR Skeleton|Group_Global.002Action.001
+  - first:
+      74: 7400104
+    second: Right Steam VR Skeleton|Group_Global.006Action
+  - first:
+      74: 7400106
+    second: Right Steam VR Skeleton|Group_GlobalAction
+  - first:
+      74: 7400108
+    second: Steam VR Skeleton|ArmatureAction
+  - first:
+      74: 7400110
+    second: Steam VR Skeleton|ArmatureAction.001
+  - first:
+      74: 7400112
+    second: Steam VR Skeleton|Group_Global.001Action
+  - first:
+      74: 7400114
+    second: Steam VR Skeleton|Group_Global.002Action
+  - first:
+      74: 7400116
+    second: Steam VR Skeleton|Group_Global.002Action.001
+  - first:
+      74: 7400118
+    second: Steam VR Skeleton|Group_Global.006Action
+  - first:
+      74: 7400120
+    second: Steam VR Skeleton|Group_GlobalAction
+  - first:
+      74: 7400122
+    second: Steam VR Glove|ArmatureAction
+  - first:
+      74: 7400124
+    second: Steam VR Glove|Group_Global.001Action
+  - first:
+      74: 7400126
+    second: Steam VR Glove|Group_Global.002Action
+  - first:
+      74: 7400128
+    second: Steam VR Glove|Group_Global.002Action.001
+  - first:
+      74: 7400130
+    second: Steam VR Glove|Group_Global.006Action
+  - first:
+      74: 7400132
+    second: Steam VR Glove|Group_GlobalAction
+  - first:
+      74: 7400134
+    second: Steam VR Skeleton Retargeted Left|Animation_l
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      108: 10800000
+    second: Sun
+  - first:
+      108: 10800002
+    second: Sun.001
+  - first:
+      108: 10800004
+    second: Sun.002
+  - first:
+      137: 13700000
+    second: Left Arm Shorter
+  - first:
+      137: 13700002
+    second: renderMesh0
+  - first:
+      137: 13700004
+    second: Right arm
+  - first:
+      137: 13700006
+    second: Right Arm Shorter
+  - first:
+      137: 13700008
+    second: Right Arm Shorter.001
+  - first:
+      137: 13700010
+    second: Right Arm Shorter.002
+  - first:
+      137: 13700012
+    second: Right Arm Shorter.004
+  - first:
+      137: 13700014
+    second: Hands_l
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Steam VR Skeleton Retargeted Left|Animation_l
+      takeName: Steam VR Skeleton Retargeted Left|Animation_l
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
