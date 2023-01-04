@@ -10,10 +10,12 @@ public class ObjectManipulator : MonoBehaviour
     public GameObject recorderSource;
 
     public GameObject sceneTarget;
-
+    
     public int frame;
     private Vector3[][] posArray;
     private Quaternion[][] oriArray;
+
+    private int framerate = 30;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,27 +50,35 @@ public class ObjectManipulator : MonoBehaviour
 
     void loadFromGame()
     {
+        framerate = recorderSource.GetComponent<ObjectRecorder>().framerate;
         posArray = recorderSource.GetComponent<ObjectRecorder>().posVectors.ToArray();
         oriArray = recorderSource.GetComponent<ObjectRecorder>().oriQuaternion.ToArray();
 
     }
     void loadFromCSVFile()
     {
+        //syntax csv object1.x,object1.y,object1.z,object1.rx,object1.ry,object1.rz...
         string[] dataLines = replayFile.text.Split("\n");
-        string[] header = dataLines[0].Split(",");
+        string[] recorderOtionStrings = dataLines[1].Split(",");
+        string[] header = dataLines[1].Split(",");
         int frames = dataLines.Length;
-        int objects = header.Length/3;
-        
-        posArray = new Vector3[frames][objects];
-     
-        for (int i = 1; i < dataLines.Length/3; i++)
+        framerate = int.Parse(recorderOtionStrings[1]); 
+        int objects = int.Parse(recorderOtionStrings[3]);;
+
+        //List<Vector3[]> tempPosVectorList = new List<Vector3[]>();
+        //List<Quaternion[]> tempOriList = new List<Quaternion[]>();
+        Vector3[] tempPosFrame = new Vector3[objects];
+        Quaternion[] tempOriFrame = new Quaternion[objects];
+
+        for (int i = 1; i < frames; i++)
         {
             string[] dataValues = dataLines[i].Split(",");
-            for (int ii = 0; ii < dataValues.Length; ii= ii + 3)
+            for (int ii = 0; ii < objects/3; ii= ii + 3)
             {
                 Vector3 positionData = new Vector3(float.Parse(dataValues[ii]),float.Parse(dataValues[ii+1]),float.Parse(dataValues[ii+2]));
-                posArray[i][ii] = positionData;
+                tempPosFrame[ii] = positionData;
                 //oriArray = 
+                posArray[i] = tempPosFrame;
             }
 
 
@@ -112,7 +122,7 @@ public class ObjectManipulator : MonoBehaviour
             {
                 Debug.Log("Positions not loaded");
             }
-            yield return new WaitForSeconds(1 / recorderSource.GetComponent<ObjectRecorder>().samplingFrequency);
+            yield return new WaitForSeconds(1 / framerate);
             
         }
 

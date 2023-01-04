@@ -17,20 +17,19 @@ public class ObjectRecorder : MonoBehaviour
     public List<Quaternion[]> oriQuaternion = new List<Quaternion[]>();
     public GameObject scene;
     public List<GameObject> objects = new List<GameObject>();
-    public int samplingFrequency = 30;
+    public int framerate = 30;
     public bool recording = false;
 
     private float timer = 0.0f;
     private float samplingInterval;
     private int samples = 0;
-    //hands.transform.GetChild(4).gameObject;
 
-    //GameObject leftHand = hands.transform.GetChild(1).gameObject;
+    private int NrOfObjects;
 
     // Start is called before the first frame update
     void Start()
     {
-        samplingInterval = 1 / samplingFrequency;
+        samplingInterval = 1 / framerate;
         locateObjects();
 
 
@@ -62,25 +61,29 @@ public class ObjectRecorder : MonoBehaviour
     void logData()
     {
         string completeLine = "";
-        Vector3[] tempArray = new Vector3[scene.transform.childCount];
-        Quaternion[] tempOriArray = new Quaternion[scene.transform.childCount];
-
-
+        Vector3[] tempArray = new Vector3[NrOfObjects];
+        Quaternion[] tempOriArray = new Quaternion[NrOfObjects];
+        
             for (int i = 0; i < scene.transform.childCount; i++) //get position and orientation of objects
             {
                 Vector3 pos = scene.transform.GetChild(i).position;
                 Quaternion ori = scene.transform.GetChild(i).rotation;
                 string positionString = pos.ToString();
+                string orientationString = pos.ToString();
                 string modifiedPositionString = positionString.Substring(1, positionString.Length - 2);
-                completeLine += modifiedPositionString + ",";
+                string modifiedOrientationString = positionString.Substring(1, positionString.Length - 2);
+                completeLine += modifiedPositionString + "," + modifiedOrientationString + ",";
+                completeLine = completeLine.Substring(0, completeLine.Length - 1);
+                
                 tempArray[i] = pos;
                 tempOriArray[i] = ori;
-
             }
-            posVectors.Add(tempArray);
-            oriQuaternion.Add(tempOriArray);
+            
+        posVectors.Add(tempArray);
+        oriQuaternion.Add(tempOriArray);
 
         csvWriter.WriteLine(completeLine);
+        //syntax csv object1.x,object1.y,object1.z,object1.rx,object1.ry,object1.rz...
     }
 
     void toggleRecording()
@@ -94,10 +97,12 @@ public class ObjectRecorder : MonoBehaviour
         else // start recording
         {
             samples = 0;
-            samplingInterval = 1 / samplingFrequency;
-
-            string header = locateObjects();
+            samplingInterval = 1 / framerate;
+            
             csvWriter = new StreamWriter("Assets/Recordings" + "/recoring" + "_" + System.DateTime.Now.ToString("yyyyMMdd_HHmm") + ".csv");
+            csvWriter.WriteLine("FPS,"+framerate.ToString()+"NrOfObjects,"+NrOfObjects.ToString());
+            string header = locateObjects();
+            
             csvWriter.WriteLine(header);
             recording = true;
             Debug.Log("recording started");
@@ -108,13 +113,13 @@ public class ObjectRecorder : MonoBehaviour
     {
 
         string headerconstruction = "";
-        
+        NrOfObjects = scene.transform.childCount;
 
-       for (int i = 0; i < scene.transform.childCount - 1; i++)
+       for (int i = 0; i < NrOfObjects; i++)
        {
             objects.Add(scene.transform.GetChild(i).gameObject);
             string childname = scene.transform.GetChild(i).name;
-                headerconstruction += childname + ".x," + childname + ".y," + childname + ".z,";
+                headerconstruction += childname + ".x," + childname + ".y," + childname + ".z," + childname + ".rx," + childname + ".ry," + childname + ".rz,";
        }
 
         return headerconstruction;
